@@ -8,5 +8,6 @@ const port = config.port;
 
 app.listen(port, () => {
   log.info(`server started ${port}`);
+  log.info("updated!");
   routes(app);
 });
